@@ -47,5 +47,6 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
    - **Ctrl + K, Ctrl + 3** 會只把第三層 { } 部分摺疊
    - 只針對指定的層級作折疊，不會影響到其它層級
 
-參考：https://blog.poychang.net/vscode-shortcuts/
-
+參考
+1. [官方 Visual Studio Code 快速鍵一覽表 | POY CHANG](https://blog.poychang.net/vscode-shortcuts/)
+2. [十分鐘快速掌握 Markdown | 卡斯伯 Blog](https://www.casper.tw/development/2019/11/23/ten-mins-learn-markdown/)
