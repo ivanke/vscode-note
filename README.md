@@ -38,3 +38,14 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
    - 功能：show and run command
 3. Go to Symbol: **Ctrl + Shift + O**
    - 功能：在 **@** 符號後加上關鍵字，可搜尋 Module、Class、Function、Variable... 等名稱。
+#### 快速摺疊程式碼
+1. **Ctrl + K, Ctrl + 0** 摺疊所有程式碼
+2. **Ctrl + K, Ctrl + J** 取消摺疊（展開）所有程式碼
+3. **Ctrl + K, Ctrl + [n]** 摺疊至第 n 層的程式碼
+   - **Ctrl + K, Ctrl + 1** 會只把第一層 { } 部分摺疊
+   - **Ctrl + K, Ctrl + 2** 會只把第二層 { } 部分摺疊
+   - **Ctrl + K, Ctrl + 3** 會只把第三層 { } 部分摺疊
+   - 只針對指定的層級作折疊，不會影響到其它層級
+
+參考：https://blog.poychang.net/vscode-shortcuts/
+
