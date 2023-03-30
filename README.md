@@ -38,6 +38,7 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
    - 功能：show and run command
 3. Go to Symbol: **Ctrl + Shift + O**
    - 功能：在 **@** 符號後加上關鍵字，可搜尋 Module、Class、Function、Variable... 等名稱。
+4. User Settings: **Ctrl + ,**
 #### 摺疊程式碼
 1. 摺疊該區塊程式碼：**Ctrl + Shift + [**
 2. 取消摺疊（展開）該區塊程式碼：**Ctrl + Shift + ]**
