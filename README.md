@@ -39,6 +39,20 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 3. Go to Symbol: **Ctrl + Shift + O**
    - 功能：在 **@** 符號後加上關鍵字，可搜尋 Module、Class、Function、Variable... 等名稱。
 4. User Settings: **Ctrl + ,**
+
+#### 編輯
+- 移動整行：**Alt + ↑/↓**
+- 依序選取同名的字串：**Ctrl + D**
+- 同時選取同名的字串：**Ctrl + F2**
+- 縮排：**Ctrl + ]**
+- 取消縮排：**Ctrl + [**
+
+##### 多行編輯 (multi-cursor and selection)
+- 插入多個輸入游標：**Alt + Click**
+- 垂直插入輸入游標：**Ctrl + Alt + ↑/↓**
+- 選取多行：Shift + Alt + 按住滑鼠左鍵拖曳
+  - 滑鼠拖曳時只有垂直移動的話，效果會與 **垂直插入輸入游標** 一樣
+
 #### 摺疊程式碼
 1. 摺疊該區塊程式碼：**Ctrl + Shift + [**
 2. 取消摺疊（展開）該區塊程式碼：**Ctrl + Shift + ]**
@@ -49,6 +63,11 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
    - 會只把第三層 { } 部分摺疊：**Ctrl + K, Ctrl + 3**
    - 只針對指定的層級作折疊，不會影響到其它層級
 5. 取消摺疊（展開）所有程式碼：**Ctrl + K, Ctrl + J**
+
+#### 終端機
+- 開啟終端機 (terminal)：**Ctrl + `**
+- 建立一個新的終端機分機：**Ctrl + Shift + `**
+
 #### 自定義
 - 開啟 Keyboard Shortcuts 設定畫面
   - 方法一：快速鍵 **Ctrl + K, Ctrl + S**
