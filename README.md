@@ -5,11 +5,11 @@
 ## 設定 Settings
 ### 分類
 vscode 的 Settings 依作用範圍的不同，分為兩類
-* User
-    * 作用範圍：全域
-* Workspace
-    * 作用範圍：工作目錄
-    * vscode 會將設定存在該工作目錄的 **.vscode/settings.json** 檔案中
+- User
+  - 作用範圍：全域
+- Workspace
+  - 作用範圍：工作目錄
+  - vscode 會將設定存在該工作目錄的 **.vscode/settings.json** 檔案中
 ### 如何進入設定
 1. 在 Command Palette 執行 "**settings**" 指令
    - Command Palette 快速鍵：**Ctrl+Shift+P**
@@ -28,7 +28,7 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 ![picture 7](res/img/cf5707b389b51bf4d86e36cf1202d017019a48fd4e7a7d13d10c9c1be3283cbe.png)
 
 ### 快速鍵 (Windows)
-#### 很常用
+#### 常用
 1. Quick Open, Go to File: **Ctrl + P**
    - 加上 **>** 符號，會變成 Command Palette
    - 加上 **@** 符號，會變成 Go to Symbol
@@ -49,6 +49,19 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
    - 會只把第三層 { } 部分摺疊：**Ctrl + K, Ctrl + 3**
    - 只針對指定的層級作折疊，不會影響到其它層級
 5. 取消摺疊（展開）所有程式碼：**Ctrl + K, Ctrl + J**
+#### 自定義
+- 開啟 Keyboard Shortcuts 設定畫面
+  - 方法一：快速鍵 **Ctrl + K, Ctrl + S**
+  - 方法二：點擊左下角管理圖示(齒輪)，選擇 **Keyboard Shortcuts**
+- 大小寫轉換
+  - 轉換為大寫
+    - 在 Keyboard Shortcuts 設定畫面使用關鍵字 **Uppercase** 搜尋
+    - 找到 **Transform to Uppercase** 項目
+    - 點擊左邊的 **Add Keybinding** (加號)
+    - 按住 **Ctrl + Alt + U**，錄製按鍵完成後按 enter
+  - 轉換為小寫
+    - 搜尋 **Lowercase** 找到 **Transform to Lowercase** 項目
+    - 按住 **Ctrl + Alt + L**，錄製按鍵完成後按 enter
 
 參考
 1. [官方 Visual Studio Code 快速鍵一覽表 | POY CHANG](https://blog.poychang.net/vscode-shortcuts/)
