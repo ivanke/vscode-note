@@ -41,9 +41,17 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 4. User Settings: **Ctrl + ,**
 
 #### 編輯
-- 移動整行：**Alt + ↑/↓**
-- 依序選取同名的字串：**Ctrl + D**
-- 同時選取同名的字串：**Ctrl + F2**
+- 複製整行：**Ctrl + C**
+  - 游標沒有圈選文字時才有作用
+- 剪下整行：**Ctrl + X**
+  - 游標沒有圈選文字時才有作用
+- 刪除整行：**Ctrl + Shift + K**
+- 移動整行 (往上／下移動)：**Alt + ↑/↓**
+- 複製整行 (往上／下複製)：**Alt + Shift + ↑/↓**
+- 新增游標後一行 (Insert Line Below)：**Ctrl + Enter**
+- 新增游標前一行 (Insert Line Above)：**Ctrl + Shift + Enter**
+- 依序選取相同的字串：**Ctrl + D**
+- 同時選取相同的字串：**Ctrl + F2**
 - 縮排：**Ctrl + ]**
 - 取消縮排：**Ctrl + [**
 
@@ -55,7 +63,9 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 
 #### 摺疊程式碼
 1. 摺疊該區塊程式碼：**Ctrl + Shift + [**
+   - 英文：Fold (collapse) region
 2. 取消摺疊（展開）該區塊程式碼：**Ctrl + Shift + ]**
+   - 英文：Unfold (uncollapse) region
 3. 摺疊所有程式碼：**Ctrl + K, Ctrl + 0**
 4. 摺疊至第 n 層的程式碼：**Ctrl + K, Ctrl + [n]**
    - 會只把第一層 { } 部分摺疊：**Ctrl + K, Ctrl + 1**
@@ -67,6 +77,20 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 #### 終端機
 - 開啟終端機 (terminal)：**Ctrl + `**
 - 建立一個新的終端機分機：**Ctrl + Shift + `**
+
+#### Run and Debug
+- start debugging：F5
+  - 開始執行 debug 模式
+- run without debugging：Ctrl + F5
+  - 執行，但沒有 debug 功能
+- stop debugging：Shift + F5
+- toggle breakpoint：F9
+  - 加一個中斷點
+- step over：F10
+  - 執行這一行
+- continue：F5
+  - 往下執行，直到下一個中斷點
+- restart debugging：Ctrl + Shift + F5
 
 #### 自定義
 - 開啟 Keyboard Shortcuts 設定畫面
