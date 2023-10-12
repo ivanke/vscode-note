@@ -29,7 +29,7 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 
 ### 快速鍵 (Windows)
 #### 常用
-1. Quick Open, Go to File: **Ctrl + P**
+1. Quick Open, Go to File: **Ctrl + P** 或 **Ctrl + E**
    - 加上 **>** 符號，會變成 Command Palette
    - 加上 **@** 符號，會變成 Go to Symbol
    - 加上 **:** 符號，會變成 Go to line
