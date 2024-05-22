@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"markdown-preview-github-styles.colorTheme": "light",
+		"markdown-image.local.path": "/res/img",
+		"markdown-image.base.fileNameFormat": "img-${YY}${MM}${DD}T${HH}${mm}${ss}${mss}",
+		"workbench.colorCustomizations": {
+			"titleBar.activeForeground": "#000",
+			"titleBar.activeBackground": "#f8f7e2f1",
+			"titleBar.inactiveForeground": "#000000CC",
+			"titleBar.inactiveBackground": "#ffffff"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"bierner.markdown-preview-github-styles",
+			"hancel.markdown-image",
+			"yzhang.markdown-all-in-one",
+			]
+		}
+}

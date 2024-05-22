@@ -1,4 +1,18 @@
 # Visual Studio Code note
+- [Visual Studio Code note](#visual-studio-code-note)
+  - [設定 Settings](#設定-settings)
+    - [分類](#分類)
+    - [如何進入設定](#如何進入設定)
+    - [Settings GUI 與 JSON 切換](#settings-gui-與-json-切換)
+    - [Settings User 與 Workspace 切換](#settings-user-與-workspace-切換)
+    - [快速鍵 (Windows)](#快速鍵-windows)
+      - [常用](#常用)
+      - [編輯](#編輯)
+        - [多行編輯 (multi-cursor and selection)](#多行編輯-multi-cursor-and-selection)
+      - [摺疊程式碼](#摺疊程式碼)
+      - [終端機](#終端機)
+      - [Run and Debug](#run-and-debug)
+      - [自定義](#自定義)
 
 ![Visual Studio Code about](res/img/vscode_about.jpg)
 
