@@ -5,14 +5,14 @@
     - [如何進入設定](#如何進入設定)
     - [Settings GUI 與 JSON 切換](#settings-gui-與-json-切換)
     - [Settings User 與 Workspace 切換](#settings-user-與-workspace-切換)
-    - [快速鍵 (Windows)](#快速鍵-windows)
-      - [常用](#常用)
-      - [編輯](#編輯)
-        - [多行編輯 (multi-cursor and selection)](#多行編輯-multi-cursor-and-selection)
+  - [快速鍵 (Windows)](#快速鍵-windows)
+    - [常用](#常用)
+    - [編輯](#編輯)
+      - [多行編輯 (multi-cursor and selection)](#多行編輯-multi-cursor-and-selection)
       - [摺疊程式碼](#摺疊程式碼)
-      - [終端機](#終端機)
-      - [Run and Debug](#run-and-debug)
-      - [自定義](#自定義)
+    - [終端機](#終端機)
+    - [Run and Debug](#run-and-debug)
+    - [自定義](#自定義)
 
 ![Visual Studio Code about](res/img/vscode_about.jpg)
 
@@ -22,8 +22,15 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 - User
   - 作用範圍：全域
 - Workspace
-  - 作用範圍：工作目錄
-  - vscode 會將設定存在該工作目錄的 **.vscode/settings.json** 檔案中
+  - 單資料夾工作區 ([Single-folder workspaces](https://code.visualstudio.com/docs/editor/workspaces#_singlefolder-workspaces))
+    - 作用範圍：此 Workspace
+    - 該資料夾就是一個 Workspace
+    - Workspace 設定檔在 `.vscode/settings.json`
+  - 多資料夾工作區 ([Multi-root workspaces](https://code.visualstudio.com/docs/editor/workspaces#_multiroot-workspaces))
+    - 作用範圍：此 Workspace 中每個 root 資料夾
+    - 可以將一個以上(包含)的資料夾加入此 Workspace，每個資料夾稱為 `root資料夾`
+    - Workspace 設定檔會以副檔名 **.code-workspace** 檔案儲存，檔名與儲存路徑自定義
+    - 仍然可對各 `root資料夾` 進行設定，設定檔會存於 `root資料夾` 的 `.vscode/settings.json`
 ### 如何進入設定
 1. 在 Command Palette 執行 "**settings**" 指令
    - Command Palette 快速鍵：**Ctrl+Shift+P**
@@ -41,8 +48,8 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 
 ![picture 7](res/img/cf5707b389b51bf4d86e36cf1202d017019a48fd4e7a7d13d10c9c1be3283cbe.png)
 
-### 快速鍵 (Windows)
-#### 常用
+## 快速鍵 (Windows)
+### 常用
 1. Quick Open, Go to File: **Ctrl + P** 或 **Ctrl + E**
    - 加上 **>** 符號，會變成 Command Palette
    - 加上 **@** 符號，會變成 Go to Symbol
@@ -54,7 +61,7 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
    - 功能：在 **@** 符號後加上關鍵字，可搜尋 Module、Class、Function、Variable... 等名稱。
 4. User Settings: **Ctrl + ,**
 
-#### 編輯
+### 編輯
 - 複製整行：**Ctrl + C**
   - 游標沒有圈選文字時才有作用
 - 剪下整行：**Ctrl + X**
@@ -69,7 +76,7 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 - 縮排：**Ctrl + ]**
 - 取消縮排：**Ctrl + [**
 
-##### 多行編輯 (multi-cursor and selection)
+#### 多行編輯 (multi-cursor and selection)
 - 插入多個輸入游標：**Alt + Click**
 - 垂直插入輸入游標：**Ctrl + Alt + ↑/↓**
 - 選取多行：Shift + Alt + 按住滑鼠左鍵拖曳
@@ -88,11 +95,11 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
    - 只針對指定的層級作折疊，不會影響到其它層級
 5. 取消摺疊（展開）所有程式碼：**Ctrl + K, Ctrl + J**
 
-#### 終端機
+### 終端機
 - 開啟終端機 (terminal)：**Ctrl + `**
 - 建立一個新的終端機分機：**Ctrl + Shift + `**
 
-#### Run and Debug
+### Run and Debug
 - start debugging：F5
   - 開始執行 debug 模式
 - run without debugging：Ctrl + F5
@@ -106,7 +113,7 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
   - 往下執行，直到下一個中斷點
 - restart debugging：Ctrl + Shift + F5
 
-#### 自定義
+### 自定義
 - 開啟 Keyboard Shortcuts 設定畫面
   - 方法一：快速鍵 **Ctrl + K, Ctrl + S**
   - 方法二：點擊左下角管理圖示(齒輪)，選擇 **Keyboard Shortcuts**
@@ -123,3 +130,5 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 參考
 1. [官方 Visual Studio Code 快速鍵一覽表 | POY CHANG](https://blog.poychang.net/vscode-shortcuts/)
 2. [十分鐘快速掌握 Markdown | 卡斯伯 Blog](https://www.casper.tw/development/2019/11/23/ten-mins-learn-markdown/)
+3. [VSCode工作区指南：回归轻量，打造全能编辑器 | 掘金](https://juejin.cn/post/7066032710778617892)
+4. [What is a VS Code "workspace"? | Visual Studio Code](https://code.visualstudio.com/docs/editor/workspaces)
