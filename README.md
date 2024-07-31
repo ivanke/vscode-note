@@ -25,11 +25,11 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
   - 單資料夾工作區 ([Single-folder workspaces](https://code.visualstudio.com/docs/editor/workspaces#_singlefolder-workspaces))
     - 作用範圍：此 Workspace
     - 該資料夾就是一個 Workspace
-    - Workspace 設定檔在 `.vscode/settings.json`
+    - 設定檔在 `.vscode/settings.json`
   - 多資料夾工作區 ([Multi-root workspaces](https://code.visualstudio.com/docs/editor/workspaces#_multiroot-workspaces))
     - 作用範圍：此 Workspace 中每個 root 資料夾
     - 可以將一個以上(包含)的資料夾加入此 Workspace，每個資料夾稱為 `root資料夾`
-    - Workspace 設定檔會以副檔名 **.code-workspace** 檔案儲存，檔名與儲存路徑自定義
+    - 設定檔會以副檔名 **.code-workspace** 檔案儲存，檔名與儲存路徑自定義
     - 仍然可對各 `root資料夾` 進行設定，設定檔會存於 `root資料夾` 的 `.vscode/settings.json`
 ### 如何進入設定
 1. 在 Command Palette 執行 "**settings**" 指令
@@ -67,8 +67,8 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 - 剪下整行：**Ctrl + X**
   - 游標沒有圈選文字時才有作用
 - 刪除整行：**Ctrl + Shift + K**
-- 移動整行 (往上／下移動)：**Alt + ↑/↓**
-- 複製整行 (往上／下複製)：**Alt + Shift + ↑/↓**
+- 移動整行 (往上／下移動)：**Alt + ↑ / ↓**
+- 複製整行 (往上／下複製)：**Alt + Shift + ↑ / ↓**
 - 新增游標後一行 (Insert Line Below)：**Ctrl + Enter**
 - 新增游標前一行 (Insert Line Above)：**Ctrl + Shift + Enter**
 - 依序選取相同的字串：**Ctrl + D**
@@ -132,3 +132,4 @@ vscode 的 Settings 依作用範圍的不同，分為兩類
 2. [十分鐘快速掌握 Markdown | 卡斯伯 Blog](https://www.casper.tw/development/2019/11/23/ten-mins-learn-markdown/)
 3. [VSCode工作区指南：回归轻量，打造全能编辑器 | 掘金](https://juejin.cn/post/7066032710778617892)
 4. [What is a VS Code "workspace"? | Visual Studio Code](https://code.visualstudio.com/docs/editor/workspaces)
+5. [vscode 的工作区(workspace) | 掘金](https://juejin.cn/post/7272191578828030004)
